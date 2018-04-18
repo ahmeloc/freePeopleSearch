@@ -1,0 +1,168 @@
+h1.logo {
+  color: #777;
+  padding: 10px;
+}
+ul {
+  font-size: 14px;
+  list-style: none;
+  display: inline;
+}
+li {
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  display: inline;
+}
+h2.head {
+  float: left;
+  padding: 10px;
+  color: #777;
+}
+h3 {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+nav {
+  background: #fff;
+  position: fixed;
+}
+div {
+  position: relative;
+}
+/* unvisited link */
+a:link {
+    color: #aaa;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #aaa;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* selected link */
+a:active {
+    color: black;
+    text-decoration: none;
+}
+/* unvisited link */
+a.ancestry:link {
+    color: black;
+    text-decoration: none;
+}
+
+/* visited link */
+a.ancestry:visited {
+    color: black;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a.ancestry:hover {
+    color: #aaa;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* selected link */
+a.ancestry:active {
+    color: black;
+    text-decoration: none;
+}
+form.center {
+  text-align: center;
+}
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+body {
+  padding-top: 200px;
+}
+.wellDark {
+  background-color: #eee !important;
+}
+div.border-top{
+  border-top: 1px;
+  border-style: solid;
+}
+div.border-bottom {
+  border-bottom: 1px;
+  border-style: solid;
+}
+div.white {
+  background-color: white !important;
+}
+p {
+  text-align: center;
+  padding: 10px;
+
+  color: #000;
+/*To account for header covering content while navbar scrolls*/
+}
+#name1,
+#number1,
+#email1,
+#finder1,
+#peopleSearch1,
+#reversePhone1,
+#ancestry1,
+#yahoo1,
+#eharmony1,
+#resources1,
+#privacy1,
+#contact1,
+#state1
+ {
+  top: -200px;;
+  position: absolute;
+}
+div.item {
+  padding: 10px 10px 0px 10px !important;
+}
+nav.foot {
+  border-left: 0px;
+  border-right: 0px;
+}
+.owl-prev {
+  width: 20px;
+  height: 30px;
+  margin-left: -20px;
+  display: inline-block;!IMPORTANT;
+  border:0px solid black;
+  float: left;
+}
+
+.owl-next {
+  width: 20px;
+  height: 30px;
+  display: inline-block;!IMPORTANT;
+  border:0px solid black;
+  float: right;
+}
+table.white {
+  background-color: white !important;
+}
+label.space {
+  padding: 10px;
+}
+.pad {
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+}
+.owl-prev i, .owl-next i {transform : scale(1,6); color: #ccc;}
+
+@media only screen and (max-width: 640px) {
+       h1 { font-size: 26px !important; }
+       p.nav { font-size: 20px !important; }
+     }
